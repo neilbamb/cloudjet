@@ -1,0 +1,4 @@
+{
+  "tests/hello/test_hello_world.py::test_add": true,
+  "tests/hello/test_hello_world.py::test_homePageView": true
+}
