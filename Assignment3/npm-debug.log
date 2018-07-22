@@ -1,0 +1,437 @@
+0 info it worked if it ends with ok
+1 verbose cli [ '/usr/bin/nodejs', '/usr/bin/npm', 'install' ]
+2 info using npm@1.4.21
+3 info using node@v0.10.25
+4 verbose readDependencies using package.json deps
+5 verbose install where, deps [ '/home/neil/hello123',
+5 verbose install   [ 'vue',
+5 verbose install     'babel-core',
+5 verbose install     'babel-loader',
+5 verbose install     'babel-preset-env',
+5 verbose install     'cross-env',
+5 verbose install     'css-loader',
+5 verbose install     'file-loader',
+5 verbose install     'node-sass',
+5 verbose install     'sass-loader',
+5 verbose install     'vue-loader',
+5 verbose install     'vue-template-compiler',
+5 verbose install     'webpack',
+5 verbose install     'webpack-dev-server' ] ]
+6 info preinstall hello123@1.0.0
+7 verbose readDependencies using package.json deps
+8 verbose cache add [ 'babel-loader@^6.0.0', null ]
+9 verbose cache add name=undefined spec="babel-loader@^6.0.0" args=["babel-loader@^6.0.0",null]
+10 verbose parsed url { protocol: null,
+10 verbose parsed url   slashes: null,
+10 verbose parsed url   auth: null,
+10 verbose parsed url   host: null,
+10 verbose parsed url   port: null,
+10 verbose parsed url   hostname: null,
+10 verbose parsed url   hash: null,
+10 verbose parsed url   search: null,
+10 verbose parsed url   query: null,
+10 verbose parsed url   pathname: 'babel-loader@^6.0.0',
+10 verbose parsed url   path: 'babel-loader@^6.0.0',
+10 verbose parsed url   href: 'babel-loader@^6.0.0' }
+11 verbose cache add [ 'babel-preset-env@^1.5.1', null ]
+12 verbose cache add name=undefined spec="babel-preset-env@^1.5.1" args=["babel-preset-env@^1.5.1",null]
+13 verbose parsed url { protocol: null,
+13 verbose parsed url   slashes: null,
+13 verbose parsed url   auth: null,
+13 verbose parsed url   host: null,
+13 verbose parsed url   port: null,
+13 verbose parsed url   hostname: null,
+13 verbose parsed url   hash: null,
+13 verbose parsed url   search: null,
+13 verbose parsed url   query: null,
+13 verbose parsed url   pathname: 'babel-preset-env@^1.5.1',
+13 verbose parsed url   path: 'babel-preset-env@^1.5.1',
+13 verbose parsed url   href: 'babel-preset-env@^1.5.1' }
+14 verbose cache add name="babel-loader" spec="^6.0.0" args=["babel-loader","^6.0.0"]
+15 verbose parsed url { protocol: null,
+15 verbose parsed url   slashes: null,
+15 verbose parsed url   auth: null,
+15 verbose parsed url   host: null,
+15 verbose parsed url   port: null,
+15 verbose parsed url   hostname: null,
+15 verbose parsed url   hash: null,
+15 verbose parsed url   search: null,
+15 verbose parsed url   query: null,
+15 verbose parsed url   pathname: '^6.0.0',
+15 verbose parsed url   path: '^6.0.0',
+15 verbose parsed url   href: '^6.0.0' }
+16 verbose addNamed [ 'babel-loader', '^6.0.0' ]
+17 verbose addNamed [ null, '>=6.0.0-0 <7.0.0-0' ]
+18 verbose cache add [ 'cross-env@^3.0.0', null ]
+19 verbose cache add name=undefined spec="cross-env@^3.0.0" args=["cross-env@^3.0.0",null]
+20 verbose parsed url { protocol: null,
+20 verbose parsed url   slashes: null,
+20 verbose parsed url   auth: null,
+20 verbose parsed url   host: null,
+20 verbose parsed url   port: null,
+20 verbose parsed url   hostname: null,
+20 verbose parsed url   hash: null,
+20 verbose parsed url   search: null,
+20 verbose parsed url   query: null,
+20 verbose parsed url   pathname: 'cross-env@^3.0.0',
+20 verbose parsed url   path: 'cross-env@^3.0.0',
+20 verbose parsed url   href: 'cross-env@^3.0.0' }
+21 verbose cache add [ 'css-loader@^0.25.0', null ]
+22 verbose cache add name=undefined spec="css-loader@^0.25.0" args=["css-loader@^0.25.0",null]
+23 verbose parsed url { protocol: null,
+23 verbose parsed url   slashes: null,
+23 verbose parsed url   auth: null,
+23 verbose parsed url   host: null,
+23 verbose parsed url   port: null,
+23 verbose parsed url   hostname: null,
+23 verbose parsed url   hash: null,
+23 verbose parsed url   search: null,
+23 verbose parsed url   query: null,
+23 verbose parsed url   pathname: 'css-loader@^0.25.0',
+23 verbose parsed url   path: 'css-loader@^0.25.0',
+23 verbose parsed url   href: 'css-loader@^0.25.0' }
+24 verbose cache add name="babel-preset-env" spec="^1.5.1" args=["babel-preset-env","^1.5.1"]
+25 verbose parsed url { protocol: null,
+25 verbose parsed url   slashes: null,
+25 verbose parsed url   auth: null,
+25 verbose parsed url   host: null,
+25 verbose parsed url   port: null,
+25 verbose parsed url   hostname: null,
+25 verbose parsed url   hash: null,
+25 verbose parsed url   search: null,
+25 verbose parsed url   query: null,
+25 verbose parsed url   pathname: '^1.5.1',
+25 verbose parsed url   path: '^1.5.1',
+25 verbose parsed url   href: '^1.5.1' }
+26 verbose addNamed [ 'babel-preset-env', '^1.5.1' ]
+27 verbose addNamed [ null, '>=1.5.1-0 <2.0.0-0' ]
+28 verbose cache add name="cross-env" spec="^3.0.0" args=["cross-env","^3.0.0"]
+29 verbose parsed url { protocol: null,
+29 verbose parsed url   slashes: null,
+29 verbose parsed url   auth: null,
+29 verbose parsed url   host: null,
+29 verbose parsed url   port: null,
+29 verbose parsed url   hostname: null,
+29 verbose parsed url   hash: null,
+29 verbose parsed url   search: null,
+29 verbose parsed url   query: null,
+29 verbose parsed url   pathname: '^3.0.0',
+29 verbose parsed url   path: '^3.0.0',
+29 verbose parsed url   href: '^3.0.0' }
+30 verbose addNamed [ 'cross-env', '^3.0.0' ]
+31 verbose addNamed [ null, '>=3.0.0-0 <4.0.0-0' ]
+32 silly lockFile c311d6e1-cross-env-3-0-0 cross-env@^3.0.0
+33 verbose lock cross-env@^3.0.0 /home/neil/.npm/c311d6e1-cross-env-3-0-0.lock
+34 verbose cache add [ 'node-sass@^4.5.0', null ]
+35 verbose cache add name=undefined spec="node-sass@^4.5.0" args=["node-sass@^4.5.0",null]
+36 verbose parsed url { protocol: null,
+36 verbose parsed url   slashes: null,
+36 verbose parsed url   auth: null,
+36 verbose parsed url   host: null,
+36 verbose parsed url   port: null,
+36 verbose parsed url   hostname: null,
+36 verbose parsed url   hash: null,
+36 verbose parsed url   search: null,
+36 verbose parsed url   query: null,
+36 verbose parsed url   pathname: 'node-sass@^4.5.0',
+36 verbose parsed url   path: 'node-sass@^4.5.0',
+36 verbose parsed url   href: 'node-sass@^4.5.0' }
+37 verbose cache add [ 'file-loader@^0.9.0', null ]
+38 verbose cache add name=undefined spec="file-loader@^0.9.0" args=["file-loader@^0.9.0",null]
+39 verbose parsed url { protocol: null,
+39 verbose parsed url   slashes: null,
+39 verbose parsed url   auth: null,
+39 verbose parsed url   host: null,
+39 verbose parsed url   port: null,
+39 verbose parsed url   hostname: null,
+39 verbose parsed url   hash: null,
+39 verbose parsed url   search: null,
+39 verbose parsed url   query: null,
+39 verbose parsed url   pathname: 'file-loader@^0.9.0',
+39 verbose parsed url   path: 'file-loader@^0.9.0',
+39 verbose parsed url   href: 'file-loader@^0.9.0' }
+40 verbose cache add [ 'sass-loader@^5.0.1', null ]
+41 verbose cache add name=undefined spec="sass-loader@^5.0.1" args=["sass-loader@^5.0.1",null]
+42 verbose parsed url { protocol: null,
+42 verbose parsed url   slashes: null,
+42 verbose parsed url   auth: null,
+42 verbose parsed url   host: null,
+42 verbose parsed url   port: null,
+42 verbose parsed url   hostname: null,
+42 verbose parsed url   hash: null,
+42 verbose parsed url   search: null,
+42 verbose parsed url   query: null,
+42 verbose parsed url   pathname: 'sass-loader@^5.0.1',
+42 verbose parsed url   path: 'sass-loader@^5.0.1',
+42 verbose parsed url   href: 'sass-loader@^5.0.1' }
+43 verbose cache add name="css-loader" spec="^0.25.0" args=["css-loader","^0.25.0"]
+44 verbose parsed url { protocol: null,
+44 verbose parsed url   slashes: null,
+44 verbose parsed url   auth: null,
+44 verbose parsed url   host: null,
+44 verbose parsed url   port: null,
+44 verbose parsed url   hostname: null,
+44 verbose parsed url   hash: null,
+44 verbose parsed url   search: null,
+44 verbose parsed url   query: null,
+44 verbose parsed url   pathname: '^0.25.0',
+44 verbose parsed url   path: '^0.25.0',
+44 verbose parsed url   href: '^0.25.0' }
+45 verbose addNamed [ 'css-loader', '^0.25.0' ]
+46 verbose addNamed [ null, '>=0.25.0-0 <0.26.0-0' ]
+47 silly lockFile 40b43f3a-css-loader-0-25-0 css-loader@^0.25.0
+48 verbose lock css-loader@^0.25.0 /home/neil/.npm/40b43f3a-css-loader-0-25-0.lock
+49 verbose cache add name="node-sass" spec="^4.5.0" args=["node-sass","^4.5.0"]
+50 verbose parsed url { protocol: null,
+50 verbose parsed url   slashes: null,
+50 verbose parsed url   auth: null,
+50 verbose parsed url   host: null,
+50 verbose parsed url   port: null,
+50 verbose parsed url   hostname: null,
+50 verbose parsed url   hash: null,
+50 verbose parsed url   search: null,
+50 verbose parsed url   query: null,
+50 verbose parsed url   pathname: '^4.5.0',
+50 verbose parsed url   path: '^4.5.0',
+50 verbose parsed url   href: '^4.5.0' }
+51 verbose addNamed [ 'node-sass', '^4.5.0' ]
+52 verbose addNamed [ null, '>=4.5.0-0 <5.0.0-0' ]
+53 silly lockFile 644160a5-node-sass-4-5-0 node-sass@^4.5.0
+54 verbose lock node-sass@^4.5.0 /home/neil/.npm/644160a5-node-sass-4-5-0.lock
+55 verbose cache add name="file-loader" spec="^0.9.0" args=["file-loader","^0.9.0"]
+56 verbose parsed url { protocol: null,
+56 verbose parsed url   slashes: null,
+56 verbose parsed url   auth: null,
+56 verbose parsed url   host: null,
+56 verbose parsed url   port: null,
+56 verbose parsed url   hostname: null,
+56 verbose parsed url   hash: null,
+56 verbose parsed url   search: null,
+56 verbose parsed url   query: null,
+56 verbose parsed url   pathname: '^0.9.0',
+56 verbose parsed url   path: '^0.9.0',
+56 verbose parsed url   href: '^0.9.0' }
+57 verbose addNamed [ 'file-loader', '^0.9.0' ]
+58 verbose addNamed [ null, '>=0.9.0-0 <0.10.0-0' ]
+59 silly lockFile 398b9e9c-file-loader-0-9-0 file-loader@^0.9.0
+60 verbose lock file-loader@^0.9.0 /home/neil/.npm/398b9e9c-file-loader-0-9-0.lock
+61 verbose cache add [ 'vue-loader@^12.1.0', null ]
+62 verbose cache add name=undefined spec="vue-loader@^12.1.0" args=["vue-loader@^12.1.0",null]
+63 verbose parsed url { protocol: null,
+63 verbose parsed url   slashes: null,
+63 verbose parsed url   auth: null,
+63 verbose parsed url   host: null,
+63 verbose parsed url   port: null,
+63 verbose parsed url   hostname: null,
+63 verbose parsed url   hash: null,
+63 verbose parsed url   search: null,
+63 verbose parsed url   query: null,
+63 verbose parsed url   pathname: 'vue-loader@^12.1.0',
+63 verbose parsed url   path: 'vue-loader@^12.1.0',
+63 verbose parsed url   href: 'vue-loader@^12.1.0' }
+64 verbose cache add [ 'vue-template-compiler@^2.3.3', null ]
+65 verbose cache add name=undefined spec="vue-template-compiler@^2.3.3" args=["vue-template-compiler@^2.3.3",null]
+66 verbose parsed url { protocol: null,
+66 verbose parsed url   slashes: null,
+66 verbose parsed url   auth: null,
+66 verbose parsed url   host: null,
+66 verbose parsed url   port: null,
+66 verbose parsed url   hostname: null,
+66 verbose parsed url   hash: null,
+66 verbose parsed url   search: null,
+66 verbose parsed url   query: null,
+66 verbose parsed url   pathname: 'vue-template-compiler@^2.3.3',
+66 verbose parsed url   path: 'vue-template-compiler@^2.3.3',
+66 verbose parsed url   href: 'vue-template-compiler@^2.3.3' }
+67 verbose cache add [ 'webpack@^2.6.1', null ]
+68 verbose cache add name=undefined spec="webpack@^2.6.1" args=["webpack@^2.6.1",null]
+69 verbose parsed url { protocol: null,
+69 verbose parsed url   slashes: null,
+69 verbose parsed url   auth: null,
+69 verbose parsed url   host: null,
+69 verbose parsed url   port: null,
+69 verbose parsed url   hostname: null,
+69 verbose parsed url   hash: null,
+69 verbose parsed url   search: null,
+69 verbose parsed url   query: null,
+69 verbose parsed url   pathname: 'webpack@^2.6.1',
+69 verbose parsed url   path: 'webpack@^2.6.1',
+69 verbose parsed url   href: 'webpack@^2.6.1' }
+70 verbose cache add name="sass-loader" spec="^5.0.1" args=["sass-loader","^5.0.1"]
+71 verbose parsed url { protocol: null,
+71 verbose parsed url   slashes: null,
+71 verbose parsed url   auth: null,
+71 verbose parsed url   host: null,
+71 verbose parsed url   port: null,
+71 verbose parsed url   hostname: null,
+71 verbose parsed url   hash: null,
+71 verbose parsed url   search: null,
+71 verbose parsed url   query: null,
+71 verbose parsed url   pathname: '^5.0.1',
+71 verbose parsed url   path: '^5.0.1',
+71 verbose parsed url   href: '^5.0.1' }
+72 verbose addNamed [ 'sass-loader', '^5.0.1' ]
+73 verbose addNamed [ null, '>=5.0.1-0 <6.0.0-0' ]
+74 silly lockFile 3914b3c7-sass-loader-5-0-1 sass-loader@^5.0.1
+75 verbose lock sass-loader@^5.0.1 /home/neil/.npm/3914b3c7-sass-loader-5-0-1.lock
+76 verbose cache add name="vue-loader" spec="^12.1.0" args=["vue-loader","^12.1.0"]
+77 verbose parsed url { protocol: null,
+77 verbose parsed url   slashes: null,
+77 verbose parsed url   auth: null,
+77 verbose parsed url   host: null,
+77 verbose parsed url   port: null,
+77 verbose parsed url   hostname: null,
+77 verbose parsed url   hash: null,
+77 verbose parsed url   search: null,
+77 verbose parsed url   query: null,
+77 verbose parsed url   pathname: '^12.1.0',
+77 verbose parsed url   path: '^12.1.0',
+77 verbose parsed url   href: '^12.1.0' }
+78 verbose addNamed [ 'vue-loader', '^12.1.0' ]
+79 verbose addNamed [ null, '>=12.1.0-0 <13.0.0-0' ]
+80 silly lockFile 801c3283-vue-loader-12-1-0 vue-loader@^12.1.0
+81 verbose lock vue-loader@^12.1.0 /home/neil/.npm/801c3283-vue-loader-12-1-0.lock
+82 verbose cache add name="vue-template-compiler" spec="^2.3.3" args=["vue-template-compiler","^2.3.3"]
+83 verbose parsed url { protocol: null,
+83 verbose parsed url   slashes: null,
+83 verbose parsed url   auth: null,
+83 verbose parsed url   host: null,
+83 verbose parsed url   port: null,
+83 verbose parsed url   hostname: null,
+83 verbose parsed url   hash: null,
+83 verbose parsed url   search: null,
+83 verbose parsed url   query: null,
+83 verbose parsed url   pathname: '^2.3.3',
+83 verbose parsed url   path: '^2.3.3',
+83 verbose parsed url   href: '^2.3.3' }
+84 verbose addNamed [ 'vue-template-compiler', '^2.3.3' ]
+85 verbose addNamed [ null, '>=2.3.3-0 <3.0.0-0' ]
+86 silly lockFile 29ab34e5-vue-template-compiler-2-3-3 vue-template-compiler@^2.3.3
+87 verbose lock vue-template-compiler@^2.3.3 /home/neil/.npm/29ab34e5-vue-template-compiler-2-3-3.lock
+88 verbose cache add [ 'webpack-dev-server@^2.4.5', null ]
+89 verbose cache add name=undefined spec="webpack-dev-server@^2.4.5" args=["webpack-dev-server@^2.4.5",null]
+90 verbose parsed url { protocol: null,
+90 verbose parsed url   slashes: null,
+90 verbose parsed url   auth: null,
+90 verbose parsed url   host: null,
+90 verbose parsed url   port: null,
+90 verbose parsed url   hostname: null,
+90 verbose parsed url   hash: null,
+90 verbose parsed url   search: null,
+90 verbose parsed url   query: null,
+90 verbose parsed url   pathname: 'webpack-dev-server@^2.4.5',
+90 verbose parsed url   path: 'webpack-dev-server@^2.4.5',
+90 verbose parsed url   href: 'webpack-dev-server@^2.4.5' }
+91 verbose cache add [ 'vue@^2.3.3', null ]
+92 verbose cache add name=undefined spec="vue@^2.3.3" args=["vue@^2.3.3",null]
+93 verbose parsed url { protocol: null,
+93 verbose parsed url   slashes: null,
+93 verbose parsed url   auth: null,
+93 verbose parsed url   host: null,
+93 verbose parsed url   port: null,
+93 verbose parsed url   hostname: null,
+93 verbose parsed url   hash: null,
+93 verbose parsed url   search: null,
+93 verbose parsed url   query: null,
+93 verbose parsed url   pathname: 'vue@^2.3.3',
+93 verbose parsed url   path: 'vue@^2.3.3',
+93 verbose parsed url   href: 'vue@^2.3.3' }
+94 verbose cache add name="webpack" spec="^2.6.1" args=["webpack","^2.6.1"]
+95 verbose parsed url { protocol: null,
+95 verbose parsed url   slashes: null,
+95 verbose parsed url   auth: null,
+95 verbose parsed url   host: null,
+95 verbose parsed url   port: null,
+95 verbose parsed url   hostname: null,
+95 verbose parsed url   hash: null,
+95 verbose parsed url   search: null,
+95 verbose parsed url   query: null,
+95 verbose parsed url   pathname: '^2.6.1',
+95 verbose parsed url   path: '^2.6.1',
+95 verbose parsed url   href: '^2.6.1' }
+96 verbose addNamed [ 'webpack', '^2.6.1' ]
+97 verbose addNamed [ null, '>=2.6.1-0 <3.0.0-0' ]
+98 silly lockFile d773cda9-webpack-2-6-1 webpack@^2.6.1
+99 verbose lock webpack@^2.6.1 /home/neil/.npm/d773cda9-webpack-2-6-1.lock
+100 verbose cache add name="webpack-dev-server" spec="^2.4.5" args=["webpack-dev-server","^2.4.5"]
+101 verbose parsed url { protocol: null,
+101 verbose parsed url   slashes: null,
+101 verbose parsed url   auth: null,
+101 verbose parsed url   host: null,
+101 verbose parsed url   port: null,
+101 verbose parsed url   hostname: null,
+101 verbose parsed url   hash: null,
+101 verbose parsed url   search: null,
+101 verbose parsed url   query: null,
+101 verbose parsed url   pathname: '^2.4.5',
+101 verbose parsed url   path: '^2.4.5',
+101 verbose parsed url   href: '^2.4.5' }
+102 verbose addNamed [ 'webpack-dev-server', '^2.4.5' ]
+103 verbose addNamed [ null, '>=2.4.5-0 <3.0.0-0' ]
+104 silly lockFile 9f611e0a-webpack-dev-server-2-4-5 webpack-dev-server@^2.4.5
+105 verbose lock webpack-dev-server@^2.4.5 /home/neil/.npm/9f611e0a-webpack-dev-server-2-4-5.lock
+106 verbose cache add [ 'babel-core@^6.0.0', null ]
+107 verbose cache add name=undefined spec="babel-core@^6.0.0" args=["babel-core@^6.0.0",null]
+108 verbose parsed url { protocol: null,
+108 verbose parsed url   slashes: null,
+108 verbose parsed url   auth: null,
+108 verbose parsed url   host: null,
+108 verbose parsed url   port: null,
+108 verbose parsed url   hostname: null,
+108 verbose parsed url   hash: null,
+108 verbose parsed url   search: null,
+108 verbose parsed url   query: null,
+108 verbose parsed url   pathname: 'babel-core@^6.0.0',
+108 verbose parsed url   path: 'babel-core@^6.0.0',
+108 verbose parsed url   href: 'babel-core@^6.0.0' }
+109 verbose cache add name="vue" spec="^2.3.3" args=["vue","^2.3.3"]
+110 verbose parsed url { protocol: null,
+110 verbose parsed url   slashes: null,
+110 verbose parsed url   auth: null,
+110 verbose parsed url   host: null,
+110 verbose parsed url   port: null,
+110 verbose parsed url   hostname: null,
+110 verbose parsed url   hash: null,
+110 verbose parsed url   search: null,
+110 verbose parsed url   query: null,
+110 verbose parsed url   pathname: '^2.3.3',
+110 verbose parsed url   path: '^2.3.3',
+110 verbose parsed url   href: '^2.3.3' }
+111 verbose addNamed [ 'vue', '^2.3.3' ]
+112 verbose addNamed [ null, '>=2.3.3-0 <3.0.0-0' ]
+113 silly lockFile ce808e49-vue-2-3-3 vue@^2.3.3
+114 verbose lock vue@^2.3.3 /home/neil/.npm/ce808e49-vue-2-3-3.lock
+115 verbose cache add name="babel-core" spec="^6.0.0" args=["babel-core","^6.0.0"]
+116 verbose parsed url { protocol: null,
+116 verbose parsed url   slashes: null,
+116 verbose parsed url   auth: null,
+116 verbose parsed url   host: null,
+116 verbose parsed url   port: null,
+116 verbose parsed url   hostname: null,
+116 verbose parsed url   hash: null,
+116 verbose parsed url   search: null,
+116 verbose parsed url   query: null,
+116 verbose parsed url   pathname: '^6.0.0',
+116 verbose parsed url   path: '^6.0.0',
+116 verbose parsed url   href: '^6.0.0' }
+117 verbose addNamed [ 'babel-core', '^6.0.0' ]
+118 verbose addNamed [ null, '>=6.0.0-0 <7.0.0-0' ]
+119 silly lockFile 259812b6-babel-core-6-0-0 babel-core@^6.0.0
+120 verbose lock babel-core@^6.0.0 /home/neil/.npm/259812b6-babel-core-6-0-0.lock
+121 silly lockFile c311d6e1-cross-env-3-0-0 cross-env@^3.0.0
+122 error Error: Attempt to unlock cross-env@^3.0.0, which hasn't been locked
+122 error     at unlock (/usr/share/npm/lib/utils/locker.js:44:11)
+122 error     at cb (/usr/share/npm/lib/cache/add-named.js:32:5)
+122 error     at /usr/share/npm/lib/cache/add-named.js:41:20
+122 error     at /usr/share/npm/lib/utils/locker.js:30:7
+122 error     at /usr/lib/nodejs/lockfile.js:161:38
+122 error     at Object.oncomplete (fs.js:107:15)
+123 error If you need help, you may report this *entire* log,
+123 error including the npm and node versions, at:
+123 error     <http://github.com/npm/npm/issues>
+124 error System Linux 3.19.0-15-generic
+125 error command "/usr/bin/nodejs" "/usr/bin/npm" "install"
+126 error cwd /home/neil/hello123
+127 error node -v v0.10.25
+128 error npm -v 1.4.21
+129 verbose exit [ 1, true ]
